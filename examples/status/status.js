@@ -8,7 +8,7 @@ conn = new esl.Connection('127.0.0.1', 8021, 'ClueCon', function() {
         //log result body and exit
         console.log(res.getBody());
         playRecording.ivrMenu(conn);
-        process.exit(0);
+        // process.exit(0);
     });
 
 });

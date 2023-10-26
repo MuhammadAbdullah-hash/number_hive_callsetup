@@ -6,6 +6,7 @@
 // there are a lot of useful recordings
 
 const ivrMenu = (conn) => {
+    console.log("... In Ivr PlayList Menue ...")
     try {
       conn.execute('playback', './recordings/transfer1.wav');
       conn.execute('playback', './recordings/ivr-or.wav');
